@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Nunito sans;
+  src: url(/src/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+.classcontainer {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+p {
+  color: #dd121c;
+  font-weight: 400;
+  font-family: NunitoSans;
+  line-height: 20.64px;
+  size: 15.13px;
+}
