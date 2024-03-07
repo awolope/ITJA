@@ -559,6 +559,22 @@ span1 {
 .faqs {
   padding-left: 20px;
 }
+.div-p1 {
+  font-family: Nunito-sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin: -10px;
+}
+.div-p {
+  font-family: Nunito-sans;
+  font-size: 15px;
+  opacity: 0.4;
+  color: black;
+  margin: 2px;
+  margin-left: -10px;
+  margin-bottom: 15px;
+}
 footer {
   font-family: Nunito-sans;
   text-align: center;
