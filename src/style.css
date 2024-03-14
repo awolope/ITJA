@@ -18,7 +18,6 @@ p {
 .header {
   background-color: #fdfcff;
   padding: 5px;
-  margin-top: -20px;
 }
 .headspan {
   margin-left: 90px;
@@ -43,7 +42,7 @@ p {
   margin-left: -45px;
 }
 .headspan2 {
-  margin-left: 230px;
+  margin-left: 600px;
 }
 .cont {
   background-color: #f8f3ff;
@@ -60,10 +59,10 @@ p {
 .imgspan {
   display: inline-flex;
   background-color: #ffffff;
-  margin-left: -160px;
+  margin-left: -120px;
   font-size: 3px;
   position: absolute;
-  margin-top: 130px;
+  margin-top: 110px;
   padding: 0 52px;
   padding-top: 15px;
   border-radius: 5px;
@@ -72,28 +71,28 @@ p {
 }
 .second-div {
   background-color: #102137;
-  padding: 5px;
+  margin: 35px;
   border-radius: 20px;
-  margin: 20px;
 }
 .seconddivp {
   font-family: Nunito-sans;
-  font-size: 10px;
+  font-size: 15px;
+  line-height: 25px;
   color: white;
   text-align: center;
-  margin: 5px;
+  margin: 20px;
 }
 .imgspan2 {
   display: inline-flex;
 }
 .foot {
-  margin: 15px;
+  margin: 35px;
   text-align: center;
 }
 .h1button {
-  padding: 10px 20px;
-  width: 20px;
-  margin-left: 30px;
+  padding: 10px 40px;
+  width: 30px;
+  margin-left: 50px;
   height: 7px;
   border: 1px solid #c82128;
   border-radius: 5px;
@@ -105,16 +104,17 @@ p {
 
   color: white;
   text-decoration: none;
-  font-size: 7px;
+  font-size: 10px;
   font-family: Nunito-sans;
 }
 .first-div {
   background-color: #c82128;
   font-family: Nunito-san;
   color: white;
-  padding: 10px;
+  padding: 20px;
   border-radius: 20px;
-  margin: 20px;
+  margin: 30px;
+  height: 700px;
 }
 .find {
   color: #ffa800;
@@ -123,7 +123,7 @@ p {
 .searchbar {
   padding: 10px;
   display: block;
-  margin: 20px auto;
+  margin: 40px auto;
   border-radius: 20px;
   border: #ffffff 1px solid;
   font-family: Nunito-sans;
@@ -131,34 +131,39 @@ p {
 .firstdivp {
   font-family: Nunito-sans;
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
+  margin: 20px;
+  line-height: 25px;
 }
 h1 {
-  margin: 30px;
-  line-height: 50px;
+  margin: 20px;
+  line-height: 80px;
+  font-size: 60px;
   font-family: Nunito-sans;
   font-weight: 700;
 }
 h2 {
   text-align: center;
-  margin: 10px;
-  font-size: 35px;
-  line-height: 50px;
+  margin: 40px;
+  font-size: 60px;
+  line-height: 65px;
   font-family: Nunito-sans;
 }
 h3 {
   font-family: Nunito-sans;
   color: white;
   text-align: center;
-  margin: 15px;
-  line-height: 50px;
+  margin: 40px;
+  margin-top: 60px;
+  line-height: 60px;
+  font-size: 50px;
 }
 .third-div {
   background-color: #102137;
   border-radius: 20px;
   margin: 20px;
-  padding: 10px;
+  padding: 30px;
 }
 h4 {
   font-family: Nunito-sans;
@@ -172,7 +177,8 @@ h4 {
 .color {
   background-color: #233245;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
+  margin-top: 80px;
   border-radius: 20px;
 }
 .third-div a {
@@ -197,8 +203,8 @@ h4 {
   margin: 5px;
 }
 .h1button1 {
-  padding: 10px 20px;
-  width: 20px;
+  padding: 10px 40px;
+  width: 30px;
   height: 7px;
   border: 1px solid #c82128;
   background: linear-gradient(104.62deg, #ffffff 18.6%, #ffffff 89.61%);
@@ -206,7 +212,7 @@ h4 {
   border-radius: 5px;
   color: #c82128;
   text-decoration: none;
-  font-size: 7px;
+  font-size: 10px;
   font-family: Nunito-sans;
 }
 .picture {
@@ -225,23 +231,23 @@ h4 {
 .footerp3 {
   font-family: Nunito-sans;
   color: black;
-  border: 1px solid white;
+  border: 12px solid #593d89;
   background-color: #593d89;
-  border-radius: 20px;
-  margin-top: 2px;
-  font-size: 13px;
+  border-radius: 150px;
+  margin-top: -5px;
+  font-size: 20px;
 }
 .footerp2 {
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 20px;
   font-family: Nunito-sans;
-  margin: 10px;
+  margin: 30px;
   font-weight: 300px;
 }
 .Getbutton {
-  padding: 10px 20px;
-  width: 20px;
+  padding: 10px 30px;
+  width: 40px;
   height: 7px;
   border: 1px solid rgba(200, 33, 40, 0.5);
   border-radius: 5px;
@@ -250,10 +256,9 @@ h4 {
     rgba(200, 33, 40, 0.5) 38.05%,
     rgba(120, 11, 116, 0.46) 87.08%
   );
-
   color: white;
   text-decoration: none;
-  font-size: 7px;
+  font-size: 10px;
   font-family: Nunito-sans;
 }
 .yellow {
@@ -369,7 +374,7 @@ h5 {
 }
 .cert {
   font-family: Nunito-sans;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   line-height: 16px;
 }
@@ -445,7 +450,7 @@ h6 {
 }
 .sixth-div {
   background-color: rgba(16, 33, 55, 1);
-  padding: 30px;
+  padding: 20px;
   margin: 10px;
 }
 .head {
@@ -459,9 +464,8 @@ h6 {
 .mini-div1 {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 10px;
-  width: 190px;
   margin: 10px;
-  padding-top: 10px;
+  padding: 10px;
 }
 .mockup {
   border-radius: 100px;
@@ -659,5 +663,8 @@ footer {
   }
   .course {
     padding-left: 50px;
+  }
+  h2 {
+    margin: 5px;
   }
 }
