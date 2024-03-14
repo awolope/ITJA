@@ -582,6 +582,48 @@ footer {
   color: #dd121c;
   line-height: 10px;
 }
+.ch1 {
+  font-family: Nunito-sans;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  color: (16, 33, 55, 1);
+}
+.cp1 {
+  font-family: Nunito-sans;
+  color: black;
+  font-size: 12px;
+  line-height: 18px;
+}
+.firstcdiv {
+  text-align: center;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  font-family: Nunito-sans;
+}
+.link-div {
+  display: inline-flex;
+  margin-top: 40px;
+}
+.link-div a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Nunito-sans;
+  font-size: 12px;
+}
+.cinput {
+  margin-left: 250px;
+  border-radius: 10px;
+  font-family: Nunito-sans;
+  opacity: 0.2;
+  font-size: 10px;
+  width: 200px;
+  height: 30px;
+}
 @media (max-width: 900px) {
   .headspan a {
     font-size: 8px;
