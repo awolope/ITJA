@@ -38,7 +38,7 @@ p {
 .footerp {
   color: black;
   font-family: Nunito-sans;
-  font-size: 12px;
+  font-size: 18px;
   margin-left: -45px;
 }
 .headspan2 {
@@ -58,16 +58,16 @@ p {
 }
 .imgspan {
   display: inline-flex;
-  background-color: #ffffff;
-  margin-left: -120px;
-  font-size: 3px;
+  background-color: white;
+  margin-left: -240px;
+  font-size: 5px;
   position: absolute;
-  margin-top: 110px;
+  margin-top: 210px;
   padding: 0 52px;
   padding-top: 15px;
   border-radius: 5px;
-  border: 2px solid #f8f3ff;
-  padding-right: 16px;
+  border: 1px solid #f8f3ff;
+  padding-right: 3px;
 }
 .second-div {
   background-color: #102137;
@@ -162,17 +162,18 @@ h3 {
 .third-div {
   background-color: #102137;
   border-radius: 20px;
-  margin: 20px;
-  padding: 30px;
+  margin: 30px;
+  padding: 20px;
+  height: 700px;
 }
 h4 {
   font-family: Nunito-sans;
   color: white;
-  line-height: 50px;
-  margin: 10px;
+  line-height: 60px;
+  margin: 20px;
   font-weight: 700;
   text-align: center;
-  font-size: 33px;
+  font-size: 49px;
 }
 .color {
   background-color: #233245;
@@ -197,10 +198,12 @@ h4 {
 }
 .third-divp {
   font-family: Nunito-sans;
-  font-size: 10px;
+  font-size: 15px;
+  line-height: 23px;
   text-align: center;
   color: white;
-  margin: 5px;
+  margin: 10px;
+  padding: 10px;
 }
 .h1button1 {
   padding: 10px 40px;
@@ -222,11 +225,11 @@ h4 {
 .footerp1 {
   font-family: Nunito-sans;
   color: black;
-  border: 1px solid white;
+  border: 10px solid #593d89;
   background-color: #593d89;
-  border-radius: 20px;
-  font-size: 13px;
-  margin-top: -2px;
+  border-radius: 200px;
+  margin-top: -5px;
+  font-size: 18px;
 }
 .footerp3 {
   font-family: Nunito-sans;
@@ -318,22 +321,24 @@ h4 {
 .fourth-div {
   background-color: #c82128;
   border-radius: 20px;
-  margin: 20px;
+  margin: 40px;
   padding: 10px;
 }
 .fourth-divp {
   color: white;
   font-family: Nunito-sans;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 23px;
   font-weight: 400;
   text-align: center;
+  margin: 20px;
 }
 .fourth-divp1 {
   background-color: rgba(138, 7, 13, 0.76);
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   border-radius: 10px;
+  height: 300px;
 }
 .fourth-divp1p {
   text-align: center;
@@ -367,9 +372,9 @@ h5 {
   font-family: Nunito-sans;
   color: white;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 50px;
-  margin: 10px;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 18px;
   text-align: center;
 }
 .cert {
@@ -536,7 +541,7 @@ span1 {
   padding-top: -40px;
 }
 .course {
-  padding-left: 150px;
+  padding-left: 450px;
 }
 .about {
   padding-left: -50px;
@@ -558,7 +563,8 @@ span1 {
   margin-left: 20px;
 }
 .ffoter-img {
-  margin-right: 50px;
+  margin-right: 200px;
+  margin-left: 150px;
 }
 .faqs {
   padding-left: 20px;
@@ -579,6 +585,9 @@ span1 {
   margin-left: -10px;
   margin-bottom: 15px;
 }
+.footernet {
+  padding-left: 16px;
+}
 footer {
   font-family: Nunito-sans;
   text-align: center;
@@ -592,14 +601,13 @@ footer {
   font-size: 35px;
   line-height: 60px;
   margin-top: 20px;
-  margin-bottom: -15px;
   color: (16, 33, 55, 1);
 }
 .cp1 {
   font-family: Nunito-sans;
   color: black;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 23px;
 }
 .firstcdiv {
   text-align: center;
@@ -611,22 +619,55 @@ footer {
 .link-div {
   display: inline-flex;
   margin-top: 40px;
+  margin-left: 50px;
 }
 .link-div a {
-  margin-right: 20px;
+  margin-right: 50px;
   text-decoration: none;
   color: black;
   font-family: Nunito-sans;
-  font-size: 12px;
+  font-size: 15px;
 }
 .cinput {
-  margin-left: 250px;
+  margin-left: 300px;
   border-radius: 10px;
   font-family: Nunito-sans;
   opacity: 0.2;
   font-size: 10px;
-  width: 200px;
+  width: 300px;
   height: 30px;
+}
+.cspan {
+  display: inline-flex;
+  text-align: left;
+}
+.cspanp1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 206, 49, 1);
+  font-family: Nunito-sans;
+}
+.cspanp2 {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(165, 165, 165, 1);
+  font-family: Nunito-sans;
+}
+.cdiiv {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px rgba(229, 229, 229, 1) solid;
+  padding: 0px;
+  margin: 30px;
+}
+.Financial {
+  font-family: Nunito Sans;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(16, 33, 55, 1);
 }
 @media (max-width: 900px) {
   .headspan a {
@@ -647,6 +688,7 @@ footer {
     margin-left: 0px;
   }
   .ffoter-img {
+    margin-left: -20px;
     margin-right: 0px;
   }
   .about {
@@ -666,5 +708,9 @@ footer {
   }
   h2 {
     margin: 5px;
+  }
+  .h1button1 {
+    padding: 10px 10px;
+    width: 10px;
   }
 }
