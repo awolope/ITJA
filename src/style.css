@@ -629,6 +629,9 @@ footer {
   font-family: Nunito-sans;
   font-size: 15px;
 }
+.conti {
+  background-color: #f9f5ff;
+}
 .cinput {
   margin-left: 300px;
   border-radius: 10px;
