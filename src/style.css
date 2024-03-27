@@ -752,6 +752,26 @@ footer {
   width: 95px;
   border-radius: 4px;
 }
+.wh-div {
+  background-color: white;
+  border-radius: 20px;
+  margin: 50px;
+  height: 4000px;
+  padding: 30px;
+}
+.ch-first-div {
+  background-color: rgba(248, 243, 255, 1);
+  height: 30px;
+}
+
+.ch-first-span {
+  display: inline-flex;
+}
+.vector1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
 @media (max-width: 900px) {
   .headspan a {
     font-size: 8px;
