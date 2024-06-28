@@ -958,4 +958,7 @@ footer {
     margin-left: -400px;
     margin-top: 20px;
   }
+  .link-div {
+    margin-left: 0px;
+  }
 }
