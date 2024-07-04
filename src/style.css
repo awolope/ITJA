@@ -909,6 +909,10 @@ footer {
   margin-left: 20px;
   font-size: 12px;
 }
+.tagline {
+  text-align: center;
+  font-family: Nunito sans;
+}
 
 @media (max-width: 900px) {
   .headspan a {
